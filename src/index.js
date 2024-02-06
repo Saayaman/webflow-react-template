@@ -22,4 +22,4 @@ class App extends Component {
 ReactDOM.render(
   React.createElement(App, {}, null),
   document.getElementById('react-target')
-);
+)
