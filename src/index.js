@@ -12,7 +12,6 @@ const CalendarComp = () => {
   )
 }
 
-
 class App extends Component {
   render() {
     return (
