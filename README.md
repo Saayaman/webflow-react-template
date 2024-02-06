@@ -29,7 +29,7 @@ Paste the Github link above, and copy the jsDeliver link generated
 
 ## Step 4: Read the bundle file inside Webflow
 
-1. Inside your webflow project, create a empty div and put the `target ID` name that you chose in Step 1.
+1. Inside your webflow project, create a empty div and put the `target ID` name that you chose in [Step 1](#step-1-replace-default-names).
 
 2. Inside the page you created the empty div, click Settings button with the gear icon
 <img src="public/webflow-screenshot-1.png" alt="Webflow designer screenshot" /><br />
