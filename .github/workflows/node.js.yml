@@ -39,7 +39,7 @@ jobs:
         git config --global user.name "Saayaman"
         git clone https://github.com/${TARGET_REPO}.git target-repo
         rm -rf target-repo/${TARGET_DIRECTORY}
-        cp -r dist/* target-repo/${TARGET_DIRECTORY}/
+        cp -r dist/* target-repo/${TARGET_DIRECTORY}
         cd target-repo
         git add .
         git commit -m "${COMMIT_MESSAGE}"
