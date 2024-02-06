@@ -38,7 +38,6 @@ jobs:
         git config --global user.email "ayakosayama1987@gmail.com"
         git config --global user.name "Saayaman"
         git clone https://github.com/${TARGET_REPO}.git target-repo
-        rm -rf target-repo/${TARGET_DIRECTORY}
         cp -r dist/* target-repo/${TARGET_DIRECTORY}
         cd target-repo
         git add .
