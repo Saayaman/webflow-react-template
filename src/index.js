@@ -2,7 +2,6 @@ import React, { Component, useState } from 'react'
 import ReactDOM from 'react-dom'
 import Calendar from 'react-calendar'
 
-
 const CalendarComp = () => {
   const [value, onChange] = useState(new Date());
   return (
@@ -19,7 +18,6 @@ class App extends Component {
     )
   }
 }
-
 
 ReactDOM.render(
   React.createElement(App, {}, null),
