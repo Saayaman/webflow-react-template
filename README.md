@@ -12,22 +12,35 @@ This is a template for a lightweight react project for creating small components
 
 ## Step 2: Write the react code
 
-1. Inside `src/index` replace inside the `return()` to your code
-2. Run `npm start` and check your app in `http://localhost:3000`
-3. Run `npm run build` to build a bundle
+1. Run `npm start` and check your app in `http://localhost:3000`
+2. Inside `src/index` replace inside the `return()` to your code
 
-## Step 3: Create CDN
+## Step 3: Push Code to Github
 
-1. Create a github repo and push all the files (bundle.js INCLUDED)
-2. Get the URL of the `bundle.js` file inside of your github repo.
+Before you push to github,
+1. Create a PUBLIC repository
+2. Change the credentials for the `node.js.yml` file.
+3. Once all the code is done, put your code to github
+```
+git add.
+git commit -m "comment"
+git push origin main
+```
+4. When code is pushed to github, `node.js.yml` will start their job automatically
+- It will install packages and build a bundle.js file
+- It will copy the bundle file to another repository
+
+## Step 4: Create CDN
+
+1. Get the URL of the `bundle.js` file inside of your github repo.
 It should look similar to this
 ```
 https://github.com/<YOUR_GITHUB_ACCOUNT>/<YOUR_REPO_NAME>/blob/main/dist/bundle.js
 ```
-3. Go the website [https://www.jsdelivr.com/github](https://www.jsdelivr.com/github).
+2. Go the website [https://www.jsdelivr.com/github](https://www.jsdelivr.com/github).
 Paste the Github link above, and copy the jsDeliver link generated
 
-## Step 4: Read the bundle file inside Webflow
+## Step 5: Read the bundle file inside Webflow
 
 1. Inside your webflow project, create a empty div and put the `target ID` name that you chose in [Step 1](#step-1-replace-default-names).
 
