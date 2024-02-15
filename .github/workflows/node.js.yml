@@ -29,14 +29,14 @@ jobs:
     - run: npm run build
     - name: Deploy to another repo
       env:
-        TARGET_REPO: 'Saayaman/webflow-react-template-public'
+        TARGET_REPO: 'michellesauder/webflow-react-template'
         TARGET_BRANCH: 'main'
         TARGET_DIRECTORY: ''
         COMMIT_MESSAGE: 'Deploy React build artifacts'
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
-        git config --global user.email "ayakosayama1987@gmail.com"
-        git config --global user.name "Saayaman"
+        git config --global user.email "mgsauder@hotmail.com"
+        git config --global user.name "michellesauder"
         git clone https://github.com/${TARGET_REPO}.git target-repo
         cp -r dist/* target-repo/${TARGET_DIRECTORY}
         cd target-repo
