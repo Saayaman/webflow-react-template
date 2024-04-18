@@ -20,8 +20,10 @@ Also a Github Actions is added to build the project in the `PRIVATE REPO` and co
 
 Before you push to github,
 1. Create a PUBLIC repository
-2. Change the credentials for the `node.js.yml` file.
-3. Once all the code is done, put your code to github
+2. Get the ACCESS TOKEN of the Github account of the PUBLIC REPOSITORY
+3. Save the ACCESS TOKEN as `ACCESS_TOKEN` as a Secret inside the PRIVATE REPOSITORY Settings
+4. Change the credentials for the `node.js.yml` file.
+5. Once all the code is done, put your code to github
 ```
 git add.
 git commit -m "comment"
