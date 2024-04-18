@@ -20,8 +20,10 @@ Also a Github Actions is added to build the project in the `PRIVATE REPO` and co
 
 Before you push to github,
 1. Create a PUBLIC repository
-2. Get the ACCESS TOKEN of the Github account of the PUBLIC REPOSITORY
-3. Save the ACCESS TOKEN as `ACCESS_TOKEN` as a Secret inside the PRIVATE REPOSITORY Settings
+2. Get the ACCESS TOKEN of the Github account of the newly made `PUBLIC REPOSITORY`
+3. Save the ACCESS TOKEN as `ACCESS_TOKEN` as a Secret inside the `PRIVATE REPOSITORY Settings`
+<img src="public/github-actions.png" alt="Github Actions Secret" /><br />
+
 4. Change the credentials for the `node.js.yml` file.
 5. Once all the code is done, put your code to github
 ```
