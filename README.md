@@ -1,8 +1,9 @@
 # WEBFLOW REACT TEMPLATE
 
 The walkthrough below will demonstrate how to build and create CDN for a react project and integrate it in webflow.
-
 This is a template for a lightweight react project for creating small components, referenced from [here](https://webflow.com/blog/react-components-in-webflow).
+
+Also a Github Actions is added to build the project in the `PRIVATE REPO` and copy it in another existing Github `PUBLIC` Repository.
 
 ## Step 1: Replace default names
 
