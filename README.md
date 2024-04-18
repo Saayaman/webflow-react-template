@@ -1,9 +1,13 @@
 # WEBFLOW REACT TEMPLATE
 
 The walkthrough below will demonstrate how to build and create CDN for a react project and integrate it in webflow.
+Also a Github Actions is added to build the project in the `PRIVATE REPO` and copy it in another existing Github `PUBLIC` Repository. The purpose is to use the completed code and hide the way it's built in react. 
+
+*Currently this repo may be showing `PUBLIC`, but it could be made `PRIIVATE`.
+
+
 This is a template for a lightweight react project for creating small components, referenced from [here](https://webflow.com/blog/react-components-in-webflow).
 
-Also a Github Actions is added to build the project in the `PRIVATE REPO` and copy it in another existing Github `PUBLIC` Repository.
 
 ## Step 1: Replace default names
 
